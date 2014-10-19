@@ -19,7 +19,8 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "jquery-rails"
 
-  s.add_dependency 'pg'
+  --s.add_dependency 'pg'
+  s.add_dependency 'activerecord-jdbcpostgresql-adapter'
   s.add_dependency 'bulk_data_methods'
   s.add_dependency 'activerecord-redshift-adapter'
   s.add_development_dependency 'rails', '>= 3.2.8'
