@@ -21,7 +21,9 @@ Gem::Specification.new do |s|
 
   #s.add_dependency 'pg'
   s.add_dependency 'activerecord-jdbcpostgresql-adapter'
-  s.add_dependency 'bulk_data_methods'
+  # Romve this dependency for now
+  # Must add git@github.com:alchimere/bulk_data_methods.git to Gemfile
+  #s.add_dependency 'bulk_data_methods'
 
   # Remove this dependency for now
   # Must add git@github.com:alchimere/activerecord-redshift-adapter.git to Gemfile
